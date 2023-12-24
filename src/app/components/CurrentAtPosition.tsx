@@ -1,11 +1,3 @@
-import {
-  Card,
-  CardContent,
-  Chip,
-  Divider,
-  Stack,
-  Typography,
-} from "@mui/material";
 import React, { Fragment } from "react";
 
 function CurrentAtPosition() {
