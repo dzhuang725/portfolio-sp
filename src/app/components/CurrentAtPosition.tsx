@@ -25,8 +25,8 @@ function CurrentAtPosition() {
         </div>
         <div className="flex flex-col gap-2">
           <p className="text-xs font-normal text-zinc-500 ">
-            Design and devlop applications based on clients' need. Focused on
-            frontend implementation with React or Angular. Also work on iOS
+            Design and devlop applications based on clients&apos; need. Focused
+            on frontend implementation with React or Angular. Also work on iOS
             applications with React Native and Swift.
           </p>
           <p className="text-xs font-normal text-zinc-500 ">
