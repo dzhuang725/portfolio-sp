@@ -1,7 +1,6 @@
 "use client";
 import { Icon } from "@iconify/react";
 import React from "react";
-import { SocialIcon } from "react-social-icons";
 
 function Connect() {
   return (
