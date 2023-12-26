@@ -7,12 +7,12 @@ import Connect from "./Connect";
 
 function Cards() {
   return (
-    <div className="flex flex-col w-[720px] h-auto gap-6 items-center">
+    <div className="flex flex-col w-auto md:w-[720px] h-auto gap-6 items-center mx-4">
       {/* CurrentAtPosition */}
       <CurrentAtPosition />
 
       {/* PastExperience */}
-      <div className="flex flex-row w-full h-auto gap-6">
+      <div className="flex flex-col sm:flex-row w-full h-auto gap-6">
         <PastExperience1 />
         <PastExperience2 />
       </div>

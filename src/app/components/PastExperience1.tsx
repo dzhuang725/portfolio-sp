@@ -2,9 +2,9 @@ import React from "react";
 
 function PastExperience1() {
   return (
-    <div className="max-w-[720px] w-full h-[280px] p-8 rounded-2xl bg-zinc-900">
+    <div className="max-w-screen-md w-full h-auto md:h-64 p-4 md:p-8 rounded-2xl bg-zinc-900">
       <div className="flex flex-col h-full justify-between">
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-2 md:gap-4">
           <div className="flex flex-row gap-2">
             <div className="w-fit h-6 rounded-lg px-2 py-1 border border-teal-400 ">
               <p className="w-fit h-4 text-xs  text-teal-400">Previous</p>
@@ -23,7 +23,7 @@ function PastExperience1() {
             <p className="w-fit h-fit text-base text-zinc-50">BoardX</p>
           </div>
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2  mt-4">
           <p className="text-xs font-normal text-zinc-500 ">
             Work with dev team and design team. Fast prototye design ideas and
             deliver to user testings. Implement FrontEnd new features.
