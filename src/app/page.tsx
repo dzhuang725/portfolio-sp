@@ -6,9 +6,9 @@ import Hero from "./components/Hero";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center overflow-scroll overflow-x-hidden">
+    <div className="flex flex-col items-center overflow-scroll overflow-x-hidden m-auto">
       {/* Header Nav bar */}
-      <Header />
+      {/* <Header /> */}
 
       <Hero />
       {/* About me */}
