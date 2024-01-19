@@ -11,7 +11,7 @@ export const AOSInit = () => {
       duration: 500,
       once: false
     });
-    console.log('Init AOS')
+    // console.log('Init AOS')
   }, [])
 
   return null
