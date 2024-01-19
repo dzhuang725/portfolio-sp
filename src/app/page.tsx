@@ -1,23 +1,25 @@
-import AboutMe from "./components/AboutMe";
-import Cards from "./components/Cards";
-import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
+import Footer from "./components/Footer";
+import SectionHero from "./components/SectionHero";
+import SectionAbout from "./components/SectionAbout";
+import SectionExperiences from "./components/SectionExperiences";
+import SectionSkills from "./components/SectionSkills";
+import SectionConnect from "./components/SectionConnect";
+
+import BGGrid from './components/deco/BGGrid';
+
 
 export default function Home() {
+
   return (
-    <div className="flex flex-col items-center overflow-scroll overflow-x-hidden m-auto">
-      {/* Header Nav bar */}
-      {/* <Header /> */}
-
-      <Hero />
-      {/* About me */}
-      <AboutMe />
-      {/* Cards */}
-      <Cards />
-
-      {/* Footer */}
+    <div className="container flex flex-col items-center gap-4">
+      <SectionHero  />
+      <SectionAbout  />
+      <SectionExperiences  />
+      <SectionSkills  />
+      <SectionConnect  />
       <Footer />
+      <BGGrid />
     </div>
   );
 }

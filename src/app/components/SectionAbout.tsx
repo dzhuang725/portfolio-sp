@@ -2,7 +2,7 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 
-function AboutMe() {
+function SectionAbout() {
   const [text, count] = useTypewriter({
     words: [
       "Hi, My Name is Weiqi Zhuang",
@@ -13,15 +13,17 @@ function AboutMe() {
     delaySpeed: 2000,
   });
   return (
-    <div className="flex flex-row w-auto h-auto gap-4 mx-4 mb-12">
+    <div data-aos="fade-up" className="flex flex-row w-auto h-auto gap-4 mx-4 mb-12">
       <div className="w-1 h-auto bg-gradient-to-b from-teal-400"></div>
+      
       <div className="flex flex-col w-auto h-auto gap-4">
-        <p className="text-xs font-normal text-zinc-400">ABOUT ME</p>
-        <h1 className="text-lg lg:text-xl font-semibold px-10 text-center">
+        <small className="text-zinc-500/80 uppercase">About</small>
+        <h1 className="text-lg lg:text-xl font-semibold ">
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="#2DD4BF" />
         </h1>
-        <div className="flex flex-col w-full md:w-[530px] h-auto gap-4">
+
+        <div className="flex flex-col w-full max-w-lg h-auto gap-4">
           <p className="text-lg font-normal">
             I am Weiqi (Dennis) Zhuang, a passionate Software Engineer with over
             2 years of experience in developing innovative web and iOS
@@ -52,4 +54,4 @@ function AboutMe() {
   );
 }
 
-export default AboutMe;
+export default SectionAbout;

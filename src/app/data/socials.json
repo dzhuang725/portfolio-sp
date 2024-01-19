@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Email",
+    "body": "wzhuang.work@gmail",
+    "icon": "icon-park-solid:mail",
+    "url": "mailto:wzhuang.work@gmail.com"
+  },
+  {
+    "id": 2,
+    "title": "Location",
+    "body": "Philadelphia, PA",
+    "icon": "icon-park-solid:local",
+    "url": "https://en.wikipedia.org/wiki/Philadelphia"
+  },
+  {
+    "id": 3,
+    "title": "Linkedin",
+    "body": "/in/weiqi-zhuang",
+    "icon": "simple-icons:linkedin",
+    "url": "https://www.linkedin.com/in/weiqi-zhuang/"
+  },
+  {
+    "id": 4,
+    "title": "GitHub",
+    "body": "/dzhuang725",
+    "icon": "icon-park-outline:github",
+    "url": "https://github.com/dzhuang725"
+  },
+  {
+    "id": 5,
+    "title": "Twitter",
+    "body": "/dennis_zhuang5",
+    "icon": "simple-icons:twitter",
+    "url": "https://twitter.com/dennis_zhuang"
+  },
+  {
+    "id": 6,
+    "title": "Phone",
+    "body": "+1(408)854-3431",
+    "icon": "icon-park-solid:phone-call",
+    "url": "tel:408-854-3431"
+  }
+]

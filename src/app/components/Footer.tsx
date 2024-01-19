@@ -2,9 +2,9 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="w-[720px] h-auto p-10">
+    <footer  className="py-16">
       <p className="text-xs font-normal text-zinc-500 text-center">
-        2023 © Weiqi Zhuang
+        { new Date().getFullYear() } © Weiqi Zhuang
       </p>
     </footer>
   );

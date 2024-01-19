@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "title": "JavaScript",
+    "icon": "devicon:javascript"
+  },
+  {
+    "id": 2,
+    "title": "TypeScript",
+    "icon": "devicon:typescript"
+  },
+  {
+    "id": 3,
+    "title": "Swift",
+    "icon": "devicon:swift"
+  },
+  {
+    "id": 4,
+    "title": "C++",
+    "icon": "devicon:cplusplus"
+  },
+  {
+    "id": 5,
+    "title": "React",
+    "icon": "devicon:react"
+  },
+  {
+    "id": 6,
+    "title": "Angular",
+    "icon": "devicon:angular"
+  },
+  {
+    "id": 7,
+    "title": "Next.js",
+    "icon": "devicon:nextjs"
+  },
+  {
+    "id": 8,
+    "title": "Node.js",
+    "icon": "devicon:nodejs"
+  },
+  {
+    "id": 9,
+    "title": "Git",
+    "icon": "devicon:git"
+  },
+  {
+    "id": 10,
+    "title": "MongoDB",
+    "icon": "devicon:mongodb"
+  },
+  {
+    "id": 11,
+    "title": "MySQL",
+    "icon": "devicon:mysql"
+  },
+  {
+    "id": 12,
+    "title": "Docker",
+    "icon": "devicon:docker"
+  },
+  {
+    "id": 13,
+    "title": "Kubernetes",
+    "icon": "devicon:kubernetes"
+  }
+]
